@@ -1,0 +1,194 @@
+@charset "utf-8";
+/*
+	
+
+		Name:Marcel Gillespie
+		Assignment: Project V4: Forms, Media, GitHub
+		Date: 3/17/2020
+
+	
+*/
+
+/*Style section*/
+
+Header{
+	background-image: url("TheGull.jpg"); 
+	padding: 50px;
+	color: #ca8200ed
+	
+}
+
+Section{
+	Background: white;
+	color: black;
+	padding: 20px;
+
+}
+Section > h1{
+	color:#004af1
+}
+footer{
+	background: black;
+	padding: 10px 20px;
+	clear: both;
+
+}
+footer > a:link, a:visited{
+	color: #790808;
+	text-decoration: none;
+}
+body{
+	background: rgb(140, 91, 4);
+	color: white;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+}
+Body > Section > img {
+  width: 30%;
+  height: 25%;
+  border-radius: 15px;
+  
+  
+  width: 250px;
+  height: 150px;
+}
+}
+Body > Section > p {
+	
+}
+
+nav {
+	display: table;
+	
+}
+ 
+nav a:link, nav  a:visited {
+	color: white;
+	text-decoration: none;
+	}
+	
+nav a:hover, nav  a:active {
+	color: hsla(0,0%, 100%, 0.7);
+	background-color: hsla(0,0%, 42%, 0.7);
+	}
+	
+nav > ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	display: table-cell
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin-right: 20px
+}
+
+section > img {
+	width: 40%;
+	float: right;
+	margin:10px 10px;
+}
+body {
+	width: 90%;
+	margin: 0px auto auto;
+}
+html {
+	background: linear-gradient(black,#3f6771, #0c758e)
+}
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left:auto
+  
+}
+
+*{
+	padding:0;
+
+}
+nav {
+    width: 100%;
+    height:60px;
+}
+nav p {
+	font-family:arial;
+	color: #222;
+	font-size: 24p;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+	display: block;
+	font-family: arial;
+	color: #222;
+	font-size: 15px;
+	padding: 10px 14px;
+	text-decoration: none;
+}
+
+nav ul li ul{
+	display: none;
+	padding: 10px;
+	position: absolute;
+}
+nav ul li:hover ul {
+	display: block;
+
+}
+nav ul li ul li{
+    width: 180px
+}
+
+.column-layout {
+	max-width: 2500px;
+	margin: 40px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	display: flex;
+}
+.main-column {
+	flex: 3;
+	order: 2;
+	padding: auto;
+}
+.main-column > h2 {
+    color: black
+}
+.sidebar-one{
+	flex: 1;
+	order: 1;
+}
+.sidebar-one > h3{
+	color: black
+}
+.sidebar-two{
+	flex: 1;
+	order: 3;
+}
+.sidebar-two> h3{
+	color: black
+}
+
+textarea{
+	 height: 100px;
+	 width: 50%
+}
+video{
+	float:right;
+	
+}
